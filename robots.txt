@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://belalovbm.github.io/sitemap.xml

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BelalovBM: open-source projects</title>
+<meta name="description" content="Open-source tools by BelalovBM, among them Claude Code Traffic Light, a Windows tray status and notification app for Claude Code.">
+<link rel="canonical" href="https://belalovbm.github.io/">
+<style>
+  :root { --back: #f6f6f7; --card: #ffffff; --fore: #1d1d1f; --muted: #5a5a63; --line: #dcdce0; --accent: #0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --back: #1c1c1e; --card: #26262a; --fore: #ededf0; --muted: #a5a5ad; --line: #3a3a40; --accent: #4493f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--back); color: var(--fore); font: 17px/1.55 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 56px 16px 48px; }
+  h1 { font-size: 38px; line-height: 1.2; margin: 0 0 10px; }
+  .lead { color: var(--muted); margin: 0 0 36px; }
+  .project { display: flex; gap: 18px; align-items: flex-start; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin-bottom: 14px; }
+  .project img { flex: none; width: 48px; height: 48px; }
+  .project h2 { font-size: 21px; margin: 0 0 4px; }
+  .project h2 a { color: var(--fore); text-decoration: none; }
+  .project h2 a:hover { text-decoration: underline; }
+  .project p { margin: 0 0 8px; color: var(--muted); }
+  .links a { color: var(--accent); margin-right: 16px; font-size: 15px; }
+  footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 15px; color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>BelalovBM</h1>
+  <p class="lead">Small open-source tools for everyday work.</p>
+
+  <div class="project">
+    <img src="https://belalovbm.github.io/claude-code-traffic-light/lamps/idle.png" width="48" height="48" alt="">
+    <div>
+      <h2><a href="https://belalovbm.github.io/claude-code-traffic-light/">Claude Code Traffic Light</a></h2>
+      <p>A Windows tray traffic light for Claude Code: see which session is working, waiting for you or done, answer its permission prompts without switching windows, and get phone notifications through ntfy when you are away.</p>
+      <div class="links">
+        <a href="https://belalovbm.github.io/claude-code-traffic-light/">Project page</a>
+        <a href="https://github.com/BelalovBM/claude-code-traffic-light/releases">Download</a>
+        <a href="https://github.com/BelalovBM/claude-code-traffic-light">Source code</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="https://github.com/BelalovBM">github.com/BelalovBM</a>
+  </footer>
+</main>
+</body>
+</html>
